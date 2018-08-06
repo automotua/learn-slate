@@ -1,0 +1,6 @@
+slate ==>
+1. outside slate ==> have to use value.change().xxx
+    then the new value is grabbed by change.value(), not the original value object
+2. otherwise,
+  1. in Editor component, onKeyDown, onPaste, etc. event handlers
+  2. custom Node, will have props.editor passed in
